@@ -367,8 +367,7 @@ with tab1:
             
              with col1:
                 # 使用占位图，避免图片加载问题
-                try:
-                    st.image(recipe['image'], caption=recipe['name'], use_column_width=True)
+                st.image(recipe['image'], caption=recipe['name'], use_column_width=True)
             
             with col2:
                 st.subheader(f"{i+1}. {recipe['name']}")
