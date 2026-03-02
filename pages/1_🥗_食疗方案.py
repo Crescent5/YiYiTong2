@@ -365,7 +365,7 @@ with tab1:
             st.markdown("---")
             col1, col2 = st.columns([1, 2])
             
-             with col1:
+            with col1:
                 # 使用占位图，避免图片加载问题
                 st.image(recipe['image'], caption=recipe['name'], use_column_width=True)
             
